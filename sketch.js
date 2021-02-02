@@ -56,6 +56,6 @@ function draw(){
 
     function mouseDrag(){
 
-        //Matter.Body.setPosition(wrecker.body,{x:mouseX,y:mouseY});
+        Matter.Body.setPosition(wrecker.body,{x:mouseX,y:mouseY});
 
     }
